@@ -1,7 +1,7 @@
 let header = document.querySelector("header");
 let section = document.querySelector("section");
 
-let requestURL = " https://yhames1978.github.io/WeirdShop.json/";
+let requestURL = "https://yhames1978.github.io/Weird-weird.json/js/WeirdShop.json";
 let request = new XMLHttpRequest();
 
 //Step Four - open a new request, using the open method
@@ -18,7 +18,7 @@ request.onload = function() {
   let weirdShopInc = request.response;
   console.log(weirdShopInc);
   populateHeader(weirdShopInc);
-  topFlavours(weirdShopInc);
+  topProducts(weirdShopInc);
 }
 
 
@@ -55,7 +55,7 @@ function topProducts(jsonObj) {
 
 
 
-    img.setAttribute('src', 'https://yhames1978.github.io/WeirdImages/' + topProducts[i].image);
+    img.setAttribute('src', 'https://yhames1978.github.io/WeirdShopImages/images/' + topProducts[i].image);
     img.setAttribute('alt', topProducts[i].image );
 
     h2.textContent = topProducts[i].name;
@@ -63,12 +63,7 @@ function topProducts(jsonObj) {
     p2.textContent = 'Description: ' + topProducts[i].description;
     p3.textContent = 'Type: ' + topProducts[i].type;
 
-    // let size = topProducts[i].size;
-    // for(let j = 0; j < size.length; j++ ) {
-    //   let listItem = document.createElement('li');
-    //   listItem.textContent = size[j];
-    //   list.appendChild(listItem);
-    // }
+
 
 
 
