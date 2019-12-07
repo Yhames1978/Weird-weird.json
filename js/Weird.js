@@ -33,7 +33,7 @@ function populateHeader(jsonObj) {
 
 
   let headerPara = document.createElement("p");
-  headerPara.textContent = 'location: ' + jsonObj['location'] + ' , Established:  ' + jsonObj['established'];
+  headerPara.textContent = 'Location: ' + jsonObj['location'] + ' , Established:  ' + jsonObj['established'];
   header.appendChild(headerPara);
 }
 
