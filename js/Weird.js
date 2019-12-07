@@ -60,8 +60,9 @@ function topProducts(jsonObj) {
 
     h2.textContent = topProducts[i].name;
     p1.textContent = 'Price: ' + topProducts[i].price;
-    p2.textContent = 'Description: ' + topProducts[i].description;
-    p3.textContent = 'Type: ' + topProducts[i].type;
+    p2.textContent = 'Type: ' + topProducts[i].type;
+    p3.textContent = 'Description: ' + topProducts[i].description;
+
 
 
 

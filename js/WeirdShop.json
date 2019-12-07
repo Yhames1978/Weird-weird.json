@@ -1,5 +1,5 @@
 {
-  "storeName" : "Weird Shop",
+  "storeName" : "Weird Shop Top Five Deals",
   "location" : "New York, New York",
   "established" : 2016,
   "active" : true,
@@ -7,7 +7,7 @@
     {
       "name" : "Baby Mop",
       "price" : "$30.99",
-      "type" : "Cleaning Tools",
+      "type" : "Mop",
       "description" : "This comfortable onesie gives your little one extra support and padding when crawling aroud, and the added bonus of having them clean your house at the same time",
       "image": "baby-mop.jpg"
     },
@@ -35,7 +35,7 @@
     {
       "name" : "Inflatable Unicorn Horn for Cats",
       "price" : "$4.99",
-      "type" : "novelty",
+      "type" : "Novelty",
       "description" : "A inflatable unicorn horn for cats that can make any cat extra    extraordinary",
       "image": "inflatable-cat-horn.jpg"
     }
